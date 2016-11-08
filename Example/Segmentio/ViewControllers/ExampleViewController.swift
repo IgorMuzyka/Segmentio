@@ -101,7 +101,9 @@ class ExampleViewController: UIViewController {
             verticalSeparatorOptions: segmentioVerticalSeparatorOptions(),
             imageContentMode: imageContentMode,
             labelTextAlignment: .center,
-            segmentStates: segmentioStates()
+            labelTextNumberOfLines: 0,
+            segmentStates: segmentioStates(),
+            animationDuration: 0.1
         )
     }
     
